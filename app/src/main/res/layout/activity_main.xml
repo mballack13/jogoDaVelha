@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView android:id="@+id/imgView_01"
+        android:src="@drawable/logomarca"
+        android:contentDescription="@string/todo"
+        style="@style/imgView_01"/>
+
+    <TableLayout android:id="@+id/tableLayout_01"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:stretchColumns="1">
+
+        <TableRow   android:gravity="center"    style="@style/btn_gaming">
+            <Button android:id="@+id/btn_01"    style="@style/btn_gaming"/>
+            <Button android:id="@+id/btn_02"    style="@style/btn_gaming"/>
+            <Button android:id="@+id/btn_03"    style="@style/btn_gaming"/>
+        </TableRow>
+
+        <TableRow   android:gravity="center"    style="@style/btn_gaming">
+            <Button android:id="@+id/btn_04"    style="@style/btn_gaming"/>
+            <Button android:id="@+id/btn_05"    style="@style/btn_gaming"/>
+            <Button android:id="@+id/btn_06"    style="@style/btn_gaming"/>
+        </TableRow>
+
+        <TableRow   android:gravity="center"    style="@style/btn_gaming">
+            <Button android:id="@+id/btn_07"    style="@style/btn_gaming"/>
+            <Button android:id="@+id/btn_08"    style="@style/btn_gaming"/>
+            <Button android:id="@+id/btn_09"    style="@style/btn_gaming"/>
+        </TableRow>
+    </TableLayout>
+
+    <Button android:id="@+id/btn_reiniciar"
+        android:text="@string/txt_reiniciar"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textStyle="bold"
+        style="@style/btn_reiniciar"
+        android:onClick="restart"/>
+
+</LinearLayout>

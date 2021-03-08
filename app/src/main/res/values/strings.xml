@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">jogoDaVelha</string>
+    <string name="txt_reiniciar">reiniciar</string>
+	<string name="todo">este é o jogo da velha!</string>
+</resources>
